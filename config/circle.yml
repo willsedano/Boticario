@@ -20,4 +20,4 @@ dependencies:
    - bundle install
 test:
  override:
-   - cd cucumber; cucumber
+   - cd youse-test; cucumber
