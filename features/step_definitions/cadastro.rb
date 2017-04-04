@@ -9,7 +9,7 @@
  	@confirmarsenha = Faker::Base.numerify('youse1!@#$').to_s
  end
 
- Dado(/^que eu acesse o site da youse$/) do
+ Dado(/^que eu acesse o site da youses$/) do
  	visit '/'
  end
 
