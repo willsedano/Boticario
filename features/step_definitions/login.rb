@@ -5,7 +5,7 @@
  end
 
  E(/^preencher e-mail$/) do
- 	find(:id, 'email').set('youse@hilpert.net') 
+ 	find(:id, 'emaiasdfl').set('youse@hilpert.net') 
  end
 
  E(/^clicar em proximo passo$/) do

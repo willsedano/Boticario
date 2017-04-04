@@ -4,7 +4,7 @@
 @fazer_cadastro
 Cenario: cadastro
 
-	Dado que eu acesse o site da youses
+	Dado que eu acesse o site da youse
 	Quando eu clicar em minha conta
 	E clicar em cadastre-se
 	E passar nome
