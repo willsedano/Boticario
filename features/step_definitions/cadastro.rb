@@ -18,7 +18,7 @@
  end
  
  E(/^clicar em cadastre-se$/) do
- 	sleep 3
+ 	sleep 4
  	click_link 'Cadastre-se'
  end
 
