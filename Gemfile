@@ -9,3 +9,4 @@ gem 'site_prism', '2.9'
 gem 'rspec', '3.5.0'
 gem 'pry'
 gem "chromedriver-helper"
+gem "capybara-selenium"
