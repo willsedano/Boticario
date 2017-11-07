@@ -45,3 +45,17 @@ cucumber --require features features/specifications/login.feature
 Caso queira rodar apenas o arquivo de cadastro:
 
 cucumber --require features features/specifications/cadastro.feature
+
+-----
+
+Resolvendo problemas de SSL
+
+Resolvendo o Problema de SSL
+Por algum motivo bizarro, temos um problema de SSL ao baixar as Gems do Ruby no Windows. Isso ocorre, por conta de uma falha no certificado com extensão ".pem" que vem no pacote de instalação do Ruby.
+Eu ja vi varias formas de resolver isso, no stack overflow. Porem vamos resolver de uma forma bem simples.
+
+1 - gem sources -a http://rubygems.org/
+
+2 - gem sources -r https://rubygems.org/
+
+3 - gem sources -u
