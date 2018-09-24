@@ -7,9 +7,9 @@ Cenario: Entrar no site thebeautybox e fechar um pedido
     Dado que eu acesse o site thebeautybox
 	E que selecione um produto
 	E que selecione comprar agora
-	Dado que selecione fechar pedido
 	Quando informar o email
+	E continuar comprando
 	Quando ir em pagamento
 	Quando selecionar boleto bancario
 	Entao finalizar compra
-	Entao validar numero de pedido
+	
