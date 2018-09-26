@@ -1,29 +1,27 @@
-Dado(/^que eu acesse o site thebeautybox$/) do
-  visit 'https://www.thebeautybox.com.br'
+Dado(/^que acesse o site quemdisseberenice$/) do
+  visit 'https://www.quemdisseberenice.com.br'
   page.execute_script "window.scrollBy(0,10000)"
 end
 
-Dado("que selecione um produto") do
-  find("a[href='/deo-colonia-eudora-kiss-me-cabernet-50ml_819217/p']").click
+E("selecione um produto") do
+  find("a[href='//www.quemdisseberenice.com.br/porta-pinceis-quem-disse-berenice--810204-p/p']").click
    
 end
 
-E("que selecione comprar agora") do  
+E("selecione comprar") do  
  page.execute_script "window.scrollBy(0,10000)"
   sleep 8
   find('a.buy-button.buy-button-ref').click
   #href="#/orderform"
-
 end
 
-Dado("que selecione fechar pedido") do  
+Dado("que click fechar pedido") do  
  page.execute_script "window.scrollBy(0,10000)"
   sleep 8
   find('a[href="#/orderform"]').click
-
 end
 
-Quando("informar o email") do
+Quando("digitar email") do
   sleep 8
   #page.execute_script "window.scrollBy(0,10000)"
  #fill_in(:id, 'client-pre-email').set('williamsedano@hotmail.com') 
@@ -32,26 +30,25 @@ Quando("informar o email") do
   #find('button#btn-identified-user-button').click 
 end
 
-E("continuar comprando") do 
+E("selecione em continuar comprando") do 
   sleep 8
   find('.identified-user-modal-body button').click 
 end
 
+#Quando("selecionar ir em pagamento") do 
+#page.execute_script "window.scrollBy(0,10000)"
+ # sleep 8 
+  #find('button.submit.btn-go-to-payment.btn.btn-large.btn-success').click 
+#end
 
-Quando("ir em pagamento") do 
-page.execute_script "window.scrollBy(0,10000)"
-  sleep 8 
-  find('button.submit.btn-go-to-payment.btn.btn-large.btn-success').click 
-end
-
-Quando("selecionar boleto bancario") do  
+Quando("selecionar boleto") do  
 page.execute_script "window.scrollBy(0,10000)"
   sleep 8 
   find('#payment-group-bankInvoicePaymentGroup').click 
   sleep 8
 end
 
-Entao("finalizar compra") do 
+Entao("click em finalizar compra") do 
 page.execute_script "window.scrollBy(0,10000)"
   sleep 8  
   find('.btn-success span').click   
