@@ -5,14 +5,15 @@ end
 
 E("feche o banner") do
    find('.close.popup-close a').click
-   
-   end
+    end
 
 Entao("selecione produto") do
-  page.execute_script "window.scrollBy(0,10000)"
-  sleep 8
-   find('img[src="https://edbr.vteximg.com.br/arquivos/ids/160374-200-200/Deo_Colonia_Eudora_Velvet_Cristal_95ml_819522.jpg?v=636522979353770000"]').click
-   
+   sleep 10
+   page.execute_script "window.scrollBy(0,10000)"
+  # find("div[chaordic='top'] iframe body a[href='https://loja.eudora.com.br/cc-cream-eudora-810475-p/p?idsku=777']").click
+   visit 'https://loja.eudora.com.br/velvet-premium-eau-de-parfum_818759/p?idsku=1577'
+
+
 end
 
 E("click em  comprar") do  
