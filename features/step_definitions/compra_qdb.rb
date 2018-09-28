@@ -1,11 +1,13 @@
 Dado(/^que acesse o site quemdisseberenice$/) do
   visit 'https://www.quemdisseberenice.com.br'
+  sleep  5
   page.execute_script "window.scrollBy(0,10000)"
 end
 
 E("selecione um produto") do
-  find("a[href='//www.quemdisseberenice.com.br/porta-pinceis-quem-disse-berenice--810204-p/p']").click
-   
+  #find("a[href='//www.quemdisseberenice.com.br/lapis-olhos-cremoso-quem-disse-berenice--pretuco-810390-p/p']").click
+  visit 'https://www.quemdisseberenice.com.br/mousse-modelador-pra-cabelos-150ml_818711/p' 
+
 end
 
 E("selecione comprar") do  

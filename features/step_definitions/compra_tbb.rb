@@ -1,11 +1,12 @@
 Dado(/^que acesse o site thebeautybox$/) do
   visit 'https://www.thebeautybox.com.br'
+  sleep 5
   page.execute_script "window.scrollBy(0,10000)"
 end
 
 Dado("que escolha um produto") do
   find("a[href='https://www.thebeautybox.com.br/mascara-facial-controla-poros-missha-real-solution-pore-control_820384/p']").click
-   
+  #visit 'https://www.thebeautybox.com.br/mascara-facial-detox-argila-iluminadora_819108/p' 
 end
 
 E("que selecione comprar agora") do 

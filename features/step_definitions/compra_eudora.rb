@@ -43,12 +43,6 @@ E("clicar em continuar comprando") do
   find('.identified-user-modal-body button').click 
 end
 
-#Quando("selecionar ir em pagamento") do 
-#page.execute_script "window.scrollBy(0,10000)"
- # sleep 8 
-  #find('button.submit.btn-go-to-payment.btn.btn-large.btn-success').click 
-#end
-
 Quando("selecionar opcao boleto") do  
 page.execute_script "window.scrollBy(0,10000)"
   sleep 8 
