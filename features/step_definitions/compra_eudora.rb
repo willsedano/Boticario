@@ -11,7 +11,7 @@ Entao("selecione produto") do
    sleep 10
    page.execute_script "window.scrollBy(0,10000)"
   # find("div[chaordic='top'] iframe body a[href='https://loja.eudora.com.br/cc-cream-eudora-810475-p/p?idsku=777']").click
-   visit 'https://loja.eudora.com.br/velvet-premium-eau-de-parfum_818759/p?idsku=1577'
+   visit 'https://loja.eudora.com.br/kit-siage-realca-a-cor-shampoo-condicionador/p?idsku=1043'
 
 
 end

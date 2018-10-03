@@ -5,8 +5,8 @@ Dado(/^que acesse o site thebeautybox$/) do
 end
 
 Dado("que escolha um produto") do
-  find("a[href='https://www.thebeautybox.com.br/mascara-facial-controla-poros-missha-real-solution-pore-control_820384/p']").click
-  #visit 'https://www.thebeautybox.com.br/mascara-facial-detox-argila-iluminadora_819108/p' 
+  #find("a[href='https://www.thebeautybox.com.br/mascara-facial-controla-poros-missha-real-solution-pore-control_820384/p']").click
+  visit 'https://www.thebeautybox.com.br/mascara-facial-detox-argila-iluminadora_819108/p' 
 end
 
 E("que selecione comprar agora") do 
