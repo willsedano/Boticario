@@ -1,0 +1,173 @@
+[
+  {
+    "uri": "features/specifications/compra_boticario.feature",
+    "id": "fluxo-de-compra-boticario",
+    "keyword": "Funcionalidade",
+    "name": "Fluxo de compra Boticario",
+    "description": "",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@compra_boticario",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "fluxo-de-compra-boticario;entrar-no-site-boticario-e-fechar-um-pedido",
+        "keyword": "Cenario",
+        "name": "Entrar no site Boticario e fechar um pedido",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@compra_boticario",
+            "line": 2
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26074
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24494
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesse o site boticario",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13887903605
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "selecione um produto do site",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8116636444
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clique em comprar",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8323570568
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "feche o pedido",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9602982321
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "informe o email no campo",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8540444839
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecione o botao continuar com a compra",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8124698074
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "selecionar ir para pagamento",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8271565827
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "selecione boleto como meio de pagamento",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16135042370
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "finalize a compra",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/compra_boticario.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8231062518
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5944258371
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
