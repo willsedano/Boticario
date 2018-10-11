@@ -9,4 +9,4 @@ gem 'rspec'
 gem 'pry'
 gem "chromedriver-helper"
 gem "capybara-selenium"
-gem "firefox"
+gem "firefox" 

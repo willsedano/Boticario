@@ -16,7 +16,7 @@ E("selecione comprar") do
   find('a.buy-button.buy-button-ref').click
   #href="#/orderform"
 end
-
+ 
 Dado("que click fechar pedido") do  
  page.execute_script "window.scrollBy(0,10000)"
   sleep 8

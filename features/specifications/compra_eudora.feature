@@ -1,7 +1,7 @@
 #language: pt
 @compra_eudora
 Funcionalidade: Fluxo de compra Eudora
-
+ 
 Cenario: Entrar no site loja eudora e fechar um pedido
 
   Dado que acesse o site loja eudora

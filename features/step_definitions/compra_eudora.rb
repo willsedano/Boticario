@@ -15,7 +15,7 @@ Entao("selecione produto") do
 
 
 end
-
+ 
 E("click em  comprar") do  
  page.execute_script "window.scrollBy(0,10000)"
   sleep 8

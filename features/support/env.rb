@@ -17,7 +17,7 @@ Capybara.default_max_wait_time = 10
 Capybara.configure do |config|
     config.app_host = 'https://youse.com.br'
 end
-
+ 
 
 #NAO ABRE BROWSER
 #Capybara.register_driver :selenium do |app|

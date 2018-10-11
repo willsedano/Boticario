@@ -1,7 +1,7 @@
 #language: pt
 @compra_boticario
 Funcionalidade: Fluxo de compra Boticario
-
+ 
 Cenario: Entrar no site Boticario e fechar um pedido
 
   Dado que acesse o site boticario

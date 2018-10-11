@@ -3,7 +3,7 @@
 Para configurar o ChromeDriver.
 
 Install Unzip
-
+ 
 sudo apt-get install unzip
 
 wget -N http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip -P ~/Downloads

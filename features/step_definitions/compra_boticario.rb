@@ -15,7 +15,7 @@ page.execute_script "window.scrollBy(0,10000)"
   find('a.btn.btn--green').click
   #href="#/orderform"
 end
-
+ 
 Entao("feche o pedido") do  
  page.execute_script "window.scrollBy(0,10000)"
   sleep 8

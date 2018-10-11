@@ -12,5 +12,5 @@ Cenario: Entrar no site thebeautybox e fechar um pedido
 	E click em continuar comprando
 	Quando selecionar ir em pagamento
 	E selecionar opcao boleto bancario
-	Entao finalize sua compra
+	Entao finalize sua compra 
 	
