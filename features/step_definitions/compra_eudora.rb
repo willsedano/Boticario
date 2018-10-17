@@ -3,9 +3,9 @@ Dado(/^que acesse o site loja eudora$/) do
   
 end
 
-E("feche o banner") do
-   find('.close.popup-close a').click
-    end
+#E("feche o banner") do
+   #find('.close.popup-close a').click
+    #end
 
 Entao("selecione produto") do
    sleep 10

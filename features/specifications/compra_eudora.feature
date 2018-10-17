@@ -5,7 +5,6 @@ Funcionalidade: Fluxo de compra Eudora
 Cenario: Entrar no site loja eudora e fechar um pedido
 
   Dado que acesse o site loja eudora
-  E feche o banner
   Entao selecione produto
   E click em  comprar
   Dado que click no botao fechar pedido
