@@ -11,4 +11,4 @@ Cenario: Entrar no site quemdisseberenice e fechar um pedido
 	Quando digitar email
 	E selecione em continuar comprando
 	Quando selecionar boleto
-	Entao click em finalizar compra
+	Entao click em finalizar compra 

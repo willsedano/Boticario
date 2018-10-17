@@ -2,7 +2,7 @@ machine:
  ruby:
    version: ruby-2.2.2
  services:
-   - docker
+   - docker 
 dependencies:
  pre:
    - sudo apt-get install libxss1 libappindicator1 libindicator7

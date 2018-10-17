@@ -11,7 +11,7 @@
         "name": "@compra_boticario",
         "line": 2
       }
-    ],
+    ], 
     "elements": [
       {
         "id": "fluxo-de-compra-boticario;entrar-no-site-boticario-e-fechar-um-pedido",
