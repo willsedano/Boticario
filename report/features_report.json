@@ -1,658 +1,133 @@
 [
   {
-    "uri": "features/specifications/compra_boticario.feature",
-    "id": "fluxo-de-compra-boticario",
+    "uri": "features/specifications/perfomance_site.feature",
+    "id": "performance-do-site",
     "keyword": "Funcionalidade",
-    "name": "Fluxo de compra Boticario",
+    "name": "Performance do site",
     "description": "",
     "line": 3,
     "tags": [
       {
-        "name": "@compra_boticario",
-        "line": 2
-      }
-    ], 
-    "elements": [
-      {
-        "id": "fluxo-de-compra-boticario;entrar-no-site-boticario-e-fechar-um-pedido",
-        "keyword": "Cenario",
-        "name": "Entrar no site Boticario e fechar um pedido",
-        "description": "",
-        "line": 5,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@compra_boticario",
-            "line": 2
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 46223
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27654
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que acesse o site boticario",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 21262745284
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "selecione um produto do site",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6965852445
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clique em comprar",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8391174321
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "feche o pedido",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10163455605
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "informe o email no campo",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8521763161
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecione o botao continuar com a compra",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8120624988
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "selecionar ir para pagamento",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8287890568
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "selecione boleto como meio de pagamento",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16145015308
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "finalize a compra",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/compra_boticario.rb:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8231911901
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3079215408
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/specifications/compra_eudora.feature",
-    "id": "fluxo-de-compra-eudora",
-    "keyword": "Funcionalidade",
-    "name": "Fluxo de compra Eudora",
-    "description": "",
-    "line": 3,
-    "tags": [
-      {
-        "name": "@compra_eudora",
+        "name": "@perfomance_site",
         "line": 2
       }
     ],
     "elements": [
       {
-        "id": "fluxo-de-compra-eudora;entrar-no-site-loja-eudora-e-fechar-um-pedido",
+        "id": "performance-do-site;entrar-no-gtmetrix-e-validar-performance",
         "keyword": "Cenario",
-        "name": "Entrar no site loja eudora e fechar um pedido",
+        "name": "Entrar no gtmetrix e validar performance",
         "description": "",
         "line": 5,
         "type": "scenario",
         "tags": [
           {
-            "name": "@compra_eudora",
+            "name": "@perfomance_site",
             "line": 2
           }
         ],
         "before": [
           {
             "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:14"
+              "location": "capybara-3.10.0/lib/capybara/cucumber.rb:14"
             },
             "result": {
               "status": "passed",
-              "duration": 18173
+              "duration": 24098
             }
           },
           {
             "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:22"
+              "location": "capybara-3.10.0/lib/capybara/cucumber.rb:22"
             },
             "result": {
               "status": "passed",
-              "duration": 16987
+              "duration": 25284
             }
           }
         ],
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que acesse o site loja eudora",
+            "name": "que acesse o site gtmetrix",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/compra_eudora.rb:1"
+              "location": "features/step_definitions/performance_site.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 7834866963
+              "duration": 8984632500
             }
           },
           {
             "keyword": "Entao ",
-            "name": "selecione produto",
+            "name": "click em log in",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/compra_eudora.rb:10"
+              "location": "features/step_definitions/performance_site.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 15940726518
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "click em  comprar",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/compra_eudora.rb:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13232888098
-            }
-          },
-          {
-            "keyword": "Dado ",
-            "name": "que click no botao fechar pedido",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/compra_eudora.rb:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8168742716
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "digitar o email no campo",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/compra_eudora.rb:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8516744296
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clicar em continuar comprando",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/compra_eudora.rb:41"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8126367210
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "selecionar opcao boleto",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/compra_eudora.rb:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16206819161
+              "duration": 4668102847
             }
           },
           {
             "keyword": "Entao ",
-            "name": "click no botao finalizar compra",
-            "line": 14,
+            "name": "selecione options",
+            "line": 9,
             "match": {
-              "location": "features/step_definitions/compra_eudora.rb:53"
+              "location": "features/step_definitions/performance_site.rb:15"
             },
             "result": {
               "status": "passed",
-              "duration": 8210176395
+              "duration": 5184175335
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecione regiao",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/performance_site.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4171810302
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "que informe a loja boticario",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/performance_site.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62679480225
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valide a performance",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/performance_site.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53729
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:10"
+              "location": "capybara-3.10.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 13810947161
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/specifications/compra_qdb.feature",
-    "id": "fluxo-de-compra-qdb",
-    "keyword": "Funcionalidade",
-    "name": "Fluxo de compra QDB",
-    "description": "",
-    "line": 3,
-    "tags": [
-      {
-        "name": "@compra_qdb",
-        "line": 2
-      }
-    ],
-    "elements": [
-      {
-        "id": "fluxo-de-compra-qdb;entrar-no-site-quemdisseberenice-e-fechar-um-pedido",
-        "keyword": "Cenario",
-        "name": "Entrar no site quemdisseberenice e fechar um pedido",
-        "description": "",
-        "line": 5,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@compra_qdb",
-            "line": 2
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20938
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19358
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que acesse o site quemdisseberenice",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10592948939
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecione um produto",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4891061728
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecione comprar",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 14293739457
-            }
-          },
-          {
-            "keyword": "Dado ",
-            "name": "que click fechar pedido",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8254106074
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "digitar email",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8499751111
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecione em continuar comprando",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8100407704
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "selecionar boleto",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16131840790
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "click em finalizar compra",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/compra_qdb.rb:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8229414321
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3715509333
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "uri": "features/specifications/compra_tbb.feature",
-    "id": "fluxo-de-compra-tbb",
-    "keyword": "Funcionalidade",
-    "name": "Fluxo de compra TBB",
-    "description": "",
-    "line": 3,
-    "tags": [
-      {
-        "name": "@compra_tbb",
-        "line": 2
-      }
-    ],
-    "elements": [
-      {
-        "id": "fluxo-de-compra-tbb;entrar-no-site-thebeautybox-e-fechar-um-pedido",
-        "keyword": "Cenario",
-        "name": "Entrar no site thebeautybox e fechar um pedido",
-        "description": "",
-        "line": 5,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@compra_tbb",
-            "line": 2
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19358
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20938
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que acesse o site thebeautybox",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8939098074
-            }
-          },
-          {
-            "keyword": "Dado ",
-            "name": "que escolha um produto",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4426029827
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "que selecione comprar agora",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13297745778
-            }
-          },
-          {
-            "keyword": "Dado ",
-            "name": "que escolha fechar pedido",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8234011655
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "digitar email no campo",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8528154470
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "click em continuar comprando",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8124958815
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "selecionar ir em pagamento",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8230263309
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecionar opcao boleto bancario",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:106"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16136692543
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "finalize sua compra",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:113"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8234472296
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "capybara-3.7.0/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15787717926
+              "duration": 204934635
             }
           }
         ]
