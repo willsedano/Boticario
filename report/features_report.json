@@ -1,6 +1,6 @@
 [
   {
-    "uri": "features/specifications/perfomance_site.feature",
+    "uri": "features/specifications/perfomance_boticario.feature",
     "id": "performance-do-site",
     "keyword": "Funcionalidade",
     "name": "Performance do site",
@@ -8,7 +8,7 @@
     "line": 3,
     "tags": [
       {
-        "name": "@perfomance_site",
+        "name": "@perfomance_boticario",
         "line": 2
       }
     ],
@@ -22,7 +22,7 @@
         "type": "scenario",
         "tags": [
           {
-            "name": "@perfomance_site",
+            "name": "@perfomance_boticario",
             "line": 2
           }
         ],
@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24098
+              "duration": 25679
             }
           },
           {
@@ -42,7 +42,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25284
+              "duration": 28050
             }
           }
         ],
@@ -52,71 +52,71 @@
             "name": "que acesse o site gtmetrix",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/performance_site.rb:1"
+              "location": "features/step_definitions/perfomance_boticario.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 8984632500
+              "duration": 20961782138
             }
           },
           {
             "keyword": "Entao ",
-            "name": "click em log in",
+            "name": "entre em log in",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/performance_site.rb:6"
+              "location": "features/step_definitions/perfomance_boticario.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 4668102847
+              "duration": 5457610091
             }
           },
           {
             "keyword": "Entao ",
-            "name": "selecione options",
+            "name": "click options",
             "line": 9,
             "match": {
-              "location": "features/step_definitions/performance_site.rb:15"
+              "location": "features/step_definitions/perfomance_boticario.rb:15"
             },
             "result": {
               "status": "passed",
-              "duration": 5184175335
+              "duration": 5387541180
             }
           },
           {
             "keyword": "E ",
-            "name": "selecione regiao",
+            "name": "selecione a opcao regiao",
             "line": 10,
             "match": {
-              "location": "features/step_definitions/performance_site.rb:21"
+              "location": "features/step_definitions/perfomance_boticario.rb:21"
             },
             "result": {
               "status": "passed",
-              "duration": 4171810302
+              "duration": 4221081592
             }
           },
           {
             "keyword": "Entao ",
-            "name": "que informe a loja boticario",
+            "name": "informe a loja boticario",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/performance_site.rb:28"
+              "location": "features/step_definitions/perfomance_boticario.rb:28"
             },
             "result": {
               "status": "passed",
-              "duration": 62679480225
+              "duration": 62919076377
             }
           },
           {
             "keyword": "Entao ",
-            "name": "valide a performance",
+            "name": "disponilize a performance",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/performance_site.rb:36"
+              "location": "features/step_definitions/perfomance_boticario.rb:36"
             },
             "result": {
               "status": "passed",
-              "duration": 53729
+              "duration": 32395
             }
           }
         ],
@@ -127,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 204934635
+              "duration": 271639992
             }
           }
         ]
