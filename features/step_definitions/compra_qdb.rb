@@ -1,7 +1,7 @@
 Dado(/^que acesse o site quemdisseberenice$/) do
   visit 'https://www.quemdisseberenice.com.br'
   sleep  5
-  page.execute_script "window.scrollBy(0,10000)"
+  page.execute_script "window.scrollBy(0,1000)"
 end
 
 E("selecione um produto") do
@@ -11,14 +11,14 @@ E("selecione um produto") do
 end
 
 E("selecione comprar") do  
- page.execute_script "window.scrollBy(0,10000)"
-  sleep 8
+ #page.execute_script "window.scrollBy(0,10000)"
+  sleep 3
   find('a.buy-button.buy-button-ref').click
   #href="#/orderform"
 end
  
 Dado("que click fechar pedido") do  
- page.execute_script "window.scrollBy(0,10000)"
+ #page.execute_script "window.scrollBy(0,10000)"
   sleep 8
   find('a[href="#/orderform"]').click
 end

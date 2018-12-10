@@ -1,4 +1,4 @@
-Dado(/^que acesse o site boticario$/) do
+Dado(/^que acesse o site da boticario$/) do
   visit 'https://www.boticario.com.br'
   sleep 5
   page.execute_script "window.scrollBy(0,10000)"
@@ -6,7 +6,7 @@ end
 
 Entao("selecione um produto do site") do
   #find("a[href='https://www.thebeautybox.com.br/mascara-facial-controla-poros-missha-real-solution-pore-control_820384/p']").click
-  visit 'https://www.boticario.com.br/nativa-spa-creme-desodorante-para-maos-melissa-e-alecrim-75g-27513/p' 
+  visit 'https://www.boticario.com.br/crazy-feelings-des-colonia-boticollection-100ml_71877/p' 
 end
 
 E("clique em comprar") do 

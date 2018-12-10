@@ -11,8 +11,8 @@ Cenario: Entrar no site da marca validar o banner e links
 	E valide link e a colecao 2
 	E mostre o banner principal 3
 	E valide o link da colecao 3
-	E selecione o banner 4
-	Entao valide link do banner 4 principal
+	E selecione o banner 4 da loja eudora
+	Entao valide link do banner 4 da eudora
 	E abra o link do banner 5 da home
 	Entao valide a coleção 5 da home
 	

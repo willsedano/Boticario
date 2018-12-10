@@ -40,7 +40,7 @@ end
 
   end
 
-E("selecione banner 4") do
+E("selecione o banner 4 da loja") do
    visit 'https://boticario.vteximg.com.br/assets/vtex.file-manager-graphql/images/new_c17_corpoebanho_2___636ff03a6dbdc790d96592c7215263cd.jpg'
    sleep 3  
 end

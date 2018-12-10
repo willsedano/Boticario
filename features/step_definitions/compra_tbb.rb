@@ -6,13 +6,13 @@ end
 
 Dado("que escolha um produto") do
   #find("a[href='https://www.thebeautybox.com.br/mascara-facial-controla-poros-missha-real-solution-pore-control_820384/p']").click
-  visit 'https://www.thebeautybox.com.br/mascara-facial-detox-argila-iluminadora_819108/p' 
+  visit 'https://www.thebeautybox.com.br/esponja-de-limpeza-facial-silicone_816707/p?idsku=15762' 
 end
 
-E("que selecione comprar agora") do 
+E("selecione comprar no site thebeautybox") do 
   sleep 8
-page.execute_script "window.scrollBy(0,10000)" 
-  find('a.buy-button.buy-button-ref').click
+#page.execute_script "window.scrollBy(0,10000)" 
+  find('a.buy-button').click
   #href="#/orderform"
 
 end

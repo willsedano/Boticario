@@ -1,28 +1,28 @@
 [
   {
-    "uri": "features/specifications/perfomance_boticario.feature",
-    "id": "performance-do-site",
+    "uri": "features/specifications/compra_tbb.feature",
+    "id": "fluxo-de-compra-tbb",
     "keyword": "Funcionalidade",
-    "name": "Performance do site",
+    "name": "Fluxo de compra TBB",
     "description": "",
     "line": 3,
     "tags": [
       {
-        "name": "@perfomance_boticario",
+        "name": "@compra_tbb",
         "line": 2
       }
     ],
     "elements": [
       {
-        "id": "performance-do-site;entrar-no-gtmetrix-e-validar-performance",
+        "id": "fluxo-de-compra-tbb;entrar-no-site-thebeautybox-e-fechar-um-pedido",
         "keyword": "Cenario",
-        "name": "Entrar no gtmetrix e validar performance",
+        "name": "Entrar no site thebeautybox e fechar um pedido",
         "description": "",
         "line": 5,
         "type": "scenario",
         "tags": [
           {
-            "name": "@perfomance_boticario",
+            "name": "@compra_tbb",
             "line": 2
           }
         ],
@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25679
+              "duration": 40691
             }
           },
           {
@@ -42,81 +42,117 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28050
+              "duration": 39506
             }
           }
         ],
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que acesse o site gtmetrix",
+            "name": "que acesse o site thebeautybox",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/perfomance_boticario.rb:1"
+              "location": "features/step_definitions/compra_tbb.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 20961782138
+              "duration": 14117447460
             }
           },
           {
-            "keyword": "Entao ",
-            "name": "entre em log in",
+            "keyword": "Dado ",
+            "name": "que escolha um produto",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/perfomance_boticario.rb:6"
+              "location": "features/step_definitions/compra_tbb.rb:7"
             },
             "result": {
               "status": "passed",
-              "duration": 5457610091
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "click options",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/perfomance_boticario.rb:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5387541180
+              "duration": 6721942233
             }
           },
           {
             "keyword": "E ",
-            "name": "selecione a opcao regiao",
+            "name": "selecione comprar no site thebeautybox",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/compra_tbb.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18101898231
+            }
+          },
+          {
+            "keyword": "Dado ",
+            "name": "que escolha fechar pedido",
             "line": 10,
             "match": {
-              "location": "features/step_definitions/perfomance_boticario.rb:21"
+              "location": "features/step_definitions/compra_tbb.rb:20"
             },
             "result": {
               "status": "passed",
-              "duration": 4221081592
+              "duration": 8311417951
             }
           },
           {
-            "keyword": "Entao ",
-            "name": "informe a loja boticario",
+            "keyword": "Quando ",
+            "name": "digitar email no campo",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/perfomance_boticario.rb:28"
+              "location": "features/step_definitions/compra_tbb.rb:27"
             },
             "result": {
               "status": "passed",
-              "duration": 62919076377
+              "duration": 8645596189
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "click em continuar comprando",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/compra_tbb.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8157194604
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "selecionar ir em pagamento",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/compra_tbb.rb:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8430451978
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar opcao boleto bancario",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/compra_tbb.rb:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16159500974
             }
           },
           {
             "keyword": "Entao ",
-            "name": "disponilize a performance",
-            "line": 12,
+            "name": "finalize sua compra",
+            "line": 15,
             "match": {
-              "location": "features/step_definitions/perfomance_boticario.rb:36"
+              "location": "features/step_definitions/compra_tbb.rb:113"
             },
             "result": {
               "status": "passed",
-              "duration": 32395
+              "duration": 8317455282
             }
           }
         ],
@@ -127,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 271639992
+              "duration": 271143004
             }
           }
         ]

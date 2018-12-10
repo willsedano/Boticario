@@ -11,7 +11,7 @@ Cenario: Entrar no site da marca validar o banner e links
 	E valide o link da colecao 2
 	E selecione banner 3 principal
 	E valide a colecao 3
-	E selecione banner 4
+	E selecione o banner 4 da loja
 	E valide link do banner 4 principal
 	E abra o link do banner 5
 	Entao valide a coleção 5 principal

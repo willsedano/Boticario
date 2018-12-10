@@ -1,13 +1,19 @@
+Dado("que acesse o site da loja boticario") do
+   visit 'https://www.boticario.com.br/'
+  sleep 2
+end
+
+
 Dado("que entre em minha conta") do
    find('.login__image').click
   sleep 2
   
 end
 
-Dado("preencha email e senha") do
+E("preencha o email e senha do usuario") do
    fill_in "Digite seu e-mail", :with => "williamsedano@hotmail.com" 
    fill_in "Digite sua senha", :with => "Pai@2201"  
-  find('button[type="submit"]').click 
+   find('.vtex-login__send-button').click 
   sleep 2
   
   end

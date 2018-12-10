@@ -4,7 +4,7 @@ Funcionalidade: Fluxo de compra Boticario
  
 Cenario: Entrar no site Boticario e fechar um pedido
 
-  Dado que acesse o site boticario
+  Dado que acesse o site da boticario
   Entao selecione um produto do site
   E clique em comprar
   Entao feche o pedido
