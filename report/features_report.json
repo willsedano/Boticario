@@ -1,28 +1,28 @@
 [
   {
-    "uri": "features/specifications/compra_tbb.feature",
-    "id": "fluxo-de-compra-tbb",
+    "uri": "features/specifications/perfomance_tbb.feature",
+    "id": "performance-do-site",
     "keyword": "Funcionalidade",
-    "name": "Fluxo de compra TBB",
+    "name": "Performance do site",
     "description": "",
     "line": 3,
     "tags": [
       {
-        "name": "@compra_tbb",
+        "name": "@perfomance_tbb",
         "line": 2
       }
     ],
     "elements": [
       {
-        "id": "fluxo-de-compra-tbb;entrar-no-site-thebeautybox-e-fechar-um-pedido",
+        "id": "performance-do-site;entrar-no-gtmetrix-e-validar-performance",
         "keyword": "Cenario",
-        "name": "Entrar no site thebeautybox e fechar um pedido",
+        "name": "Entrar no gtmetrix e validar performance",
         "description": "",
         "line": 5,
         "type": "scenario",
         "tags": [
           {
-            "name": "@compra_tbb",
+            "name": "@perfomance_tbb",
             "line": 2
           }
         ],
@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40691
+              "duration": 25679
             }
           },
           {
@@ -42,117 +42,81 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39506
+              "duration": 26469
             }
           }
         ],
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que acesse o site thebeautybox",
+            "name": "que abra o site gtmetrix",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/compra_tbb.rb:1"
+              "location": "features/step_definitions/perfomance_tbb.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 14117447460
-            }
-          },
-          {
-            "keyword": "Dado ",
-            "name": "que escolha um produto",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6721942233
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecione comprar no site thebeautybox",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 18101898231
-            }
-          },
-          {
-            "keyword": "Dado ",
-            "name": "que escolha fechar pedido",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8311417951
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "digitar email no campo",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8645596189
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "click em continuar comprando",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8157194604
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "selecionar ir em pagamento",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8430451978
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "selecionar opcao boleto bancario",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/compra_tbb.rb:106"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16159500974
+              "duration": 7444965663
             }
           },
           {
             "keyword": "Entao ",
-            "name": "finalize sua compra",
-            "line": 15,
+            "name": "faca login",
+            "line": 8,
             "match": {
-              "location": "features/step_definitions/compra_tbb.rb:113"
+              "location": "features/step_definitions/perfomance_tbb.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 8317455282
+              "duration": 4726708614
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "va em opcao options",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/perfomance_tbb.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5392362341
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolha a regiao",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/perfomance_tbb.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4228041752
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "que informe loja tbb",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/perfomance_tbb.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62878078670
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "demonstre a performance",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/perfomance_tbb.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50567
             }
           }
         ],
@@ -163,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 271143004
+              "duration": 276361414
             }
           }
         ]

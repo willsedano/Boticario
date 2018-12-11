@@ -4,37 +4,37 @@ Dado("que acesse o site tbb") do
 end
 
 E("abra o banner principal 1") do
-   visit 'https://tbb.vteximg.com.br/arquivos/ids/203349/bw_site-todo-ganhe-kit.jpg?v=636770425371170000' 
+   visit 'https://tbb.vteximg.com.br/arquivos/ids/205367/1-natal-15off_marcas_premium_v3.gif?v=636799925679770000' 
    sleep 3
  
 end
 
    E("valide o link e colecao 1") do
-    visit 'https://www.thebeautybox.com.br/634?PS=15&map=productClusterIds&O=OrderByReleaseDateDESC'
+    visit 'https://www.thebeautybox.com.br/busca/?fq=H:1373'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3 
 end
 
 Entao("abra o banner principal 2") do
-   visit 'https://tbb.vteximg.com.br/arquivos/ids/203328/bw_kv-40_off.jpg?v=636770150471200000'
+   visit 'https://tbb.vteximg.com.br/arquivos/ids/205373/2-natal-shiseido-ganhe-amostras.jpg?v=636800301102670000'
    sleep 3  
 end
 
    E("valide o link e colecao 2") do
-    visit 'http://www.thebeautybox.com.br/busca/?fq=H:1307'
+    visit 'https://www.thebeautybox.com.br/shiseido'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3
 end
 
 Entao("abra banner principal 3") do
-   visit 'https://tbb.vteximg.com.br/arquivos/ids/203351/bw_kv-cabelos-ganhe-oleo.jpg?v=636770437662470000'
+   visit 'https://tbb.vteximg.com.br/arquivos/ids/205375/3-lancamento-jadore-absolu%20(1).jpg?v=636800308950700000'
    sleep 3   
 end
 
    E("valide o link e colecao 3") do
-    visit 'https://www.thebeautybox.com.br/1213?PS=15&map=productClusterIds&O=OrderByTopSaleDESC'
+    visit 'https://www.thebeautybox.com.br/j-adore-absolu-fem-edp-50ml_821449/p?idsku=20371'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3
