@@ -1,6 +1,6 @@
 [
   {
-    "uri": "features/specifications/perfomance_tbb.feature",
+    "uri": "features/specifications/perfomanceweb.feature",
     "id": "performance-do-site",
     "keyword": "Funcionalidade",
     "name": "Performance do site",
@@ -8,21 +8,21 @@
     "line": 3,
     "tags": [
       {
-        "name": "@perfomance_tbb",
+        "name": "@perfomanceweb",
         "line": 2
       }
     ],
     "elements": [
       {
-        "id": "performance-do-site;entrar-no-gtmetrix-e-validar-performance",
+        "id": "performance-do-site;entrar-no-webpagetest-e-validar-performance",
         "keyword": "Cenario",
-        "name": "Entrar no gtmetrix e validar performance",
+        "name": "Entrar no webpagetest e validar performance",
         "description": "",
         "line": 5,
         "type": "scenario",
         "tags": [
           {
-            "name": "@perfomance_tbb",
+            "name": "@perfomanceweb",
             "line": 2
           }
         ],
@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25679
+              "duration": 26074
             }
           },
           {
@@ -42,81 +42,58 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26469
+              "duration": 25679
             }
           }
         ],
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que abra o site gtmetrix",
+            "name": "que acesse o site webpagetest",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/perfomance_tbb.rb:1"
+              "location": "features/step_definitions/performanceweb.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 7444965663
+              "duration": 8415599705
             }
           },
           {
             "keyword": "Entao ",
-            "name": "faca login",
+            "name": "informe o site da loja",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/perfomance_tbb.rb:6"
+              "location": "features/step_definitions/performanceweb.rb:7"
             },
             "result": {
               "status": "passed",
-              "duration": 4726708614
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "va em opcao options",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/perfomance_tbb.rb:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5392362341
+              "duration": 2701611416
             }
           },
           {
             "keyword": "E ",
-            "name": "escolha a regiao",
+            "name": "selecione a regiao do teste",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/performanceweb.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4169071207
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "disponilize a performance",
             "line": 10,
             "match": {
-              "location": "features/step_definitions/perfomance_tbb.rb:21"
+              "location": "C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/cucumber-3.1.2/lib/cucumber/step_match.rb:154"
             },
             "result": {
-              "status": "passed",
-              "duration": 4228041752
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "que informe loja tbb",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/perfomance_tbb.rb:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 62878078670
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "demonstre a performance",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/perfomance_tbb.rb:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 50567
+              "status": "failed",
+              "error_message": "Ambiguous match of \"disponilize a performance\":\n\nfeatures/step_definitions/perfomance_boticario.rb:36:in `\"disponilize a performance\"'\nfeatures/step_definitions/performanceweb.rb:24:in `\"disponilize a performance\"'\n\nYou can run again with --guess to make Cucumber be more smart about it\n (Cucumber::Ambiguous)\nfeatures/specifications/perfomanceweb.feature:10:in `Entao disponilize a performance'",
+              "duration": 140246
             }
           }
         ],
@@ -127,7 +104,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 276361414
+              "duration": 261594554
             }
           }
         ]

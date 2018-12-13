@@ -4,37 +4,37 @@ Dado("que acesse o site qdb") do
 end
 
 Entao("abra o banner 1 principal") do
-   visit 'https://qbbr.vteximg.com.br/arquivos/ids/167463/qdb_c17_bw_4-BLACK-WEEK.jpg?v=636776234371030000' 
+   visit 'https://qbbr.vteximg.com.br/arquivos/ids/167665/qdb_c17_bw_4-KITS-NATAL.png?v=636789610163130000' 
    sleep 3
    end
 
    Entao("valide o link e a colecao") do
-    visit 'https://www.quemdisseberenice.com.br/busca/?fq=H:681'
+    visit 'https://www.quemdisseberenice.com.br/busca/?fq=H:715'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3 
 end
 
 Entao("abra o banner 2 principal") do
-   visit 'https://qbbr.vteximg.com.br/arquivos/ids/167465/qdb_c17_bw_6-ITENS-50-DESCONTO.gif?v=636776273604270000'
+   visit 'https://qbbr.vteximg.com.br/arquivos/ids/167686/qdb_c17_bw_6_PROGRESSIVAS-BRINDE-2.png?v=636796239879070000'
    sleep 3  
 end
 
 Entao("valide link e a colecao") do
-    visit 'https://www.quemdisseberenice.com.br/busca/?fq=H:683'
+    visit 'https://www.quemdisseberenice.com.br/busca/?fq=H:715'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3
 end
 
 Entao("abra banner 3 principal") do
-   visit 'https://qbbr.vteximg.com.br/arquivos/ids/167466/qdb_c17_bw_21-KITS-DESCONTO.gif?v=636776274131400000'
+   visit 'https://qbbr.vteximg.com.br/arquivos/ids/167679/qdb_c17_bw_5-KITS-NATAL-LEVE-SOMBRA-DUO.png?v=636790001245630000'
    sleep 3   
 end
 
 
 Entao("valide link e colecao") do
-    visit 'https://www.quemdisseberenice.com.br/kit-deo-colonia-e-locao-existe-amor-na-amora-e-caixa-g-2018111719/p'
+    visit 'https://www.quemdisseberenice.com.br/busca/?fq=H:715'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3 

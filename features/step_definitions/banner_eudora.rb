@@ -23,7 +23,7 @@ Entao("click no banner principal 2") do
 end
 
    E("valide link e a colecao 2") do
-    visit 'https://edbr.vteximg.com.br/arquivos/ids/162708/15-EUD-bronze-splendor-4.gif?v=636800706912770000'https://edbr.vteximg.com.br/arquivos/ids/162708/15-EUD-bronze-splendor-4.gif?v=636800706912770000
+    visit 'https://edbr.vteximg.com.br/arquivos/ids/162708/15-EUD-bronze-splendor-4.gif?v=636800706912770000'
     sleep 3
     page.execute_script "window.scrollBy(0,1000)"  
     sleep 3
